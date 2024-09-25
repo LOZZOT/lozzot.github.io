@@ -1,0 +1,163 @@
+
+/*ROOT*/
+body {
+	font-family: 'Poppins', sans-serif;
+/*	background: #d4d4d4;*/
+	background-color: #757575;
+}
+
+
+/*.container{
+	display: flex !important; 
+	flex-direction: column !important;
+	justify-content: center !important;
+
+}*/
+
+/*NAVBAR*/
+.navbar {
+		background-color: #333;
+}
+.navbar-brand {
+		font-weight: bold;
+		color: #fff;
+}
+
+.logo{
+	width: 38%;
+}
+
+/*HERO SECTION*/
+.hero-section {
+		background-image: url('../images/bg-dresses.jpg');
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+		color: white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+}
+.hero-text {
+		max-width: 600px;
+}
+.hero-text h1 {
+		font-size: 3rem;
+}
+.hero-text p {
+		font-size: 1.2rem;
+}
+
+.hero-section a svg:hover {
+		transform: scale(1.1);
+		transition: transform 0.3s;
+}
+
+.hero-text h1 {
+		font-size: 4rem; /* Make the heading larger */
+		font-weight: 700; /* Bold text */
+		color: #fff; /* White text for contrast */
+		text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for better readability */
+		letter-spacing: 1px; /* Slight letter spacing */
+		margin-bottom: 20px; /* Space between heading and paragraph */
+}
+
+.hero-text p {
+		font-size: 1.5rem; /* Larger font for the subheading */
+		font-weight: 400; /* Normal weight */
+		color: #f8f9fa; /* Light text color */
+		text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+		line-height: 1.6; /* Increase line height for readability */
+		margin-bottom: 30px; /* Add some space after the paragraph */
+}
+
+.hero-text {
+		text-align: center; /* Keep text centered */
+/*            padding: 0 20px; /* Add padding for better spacing on smaller screens */*/
+}
+
+
+
+
+/* CONTACT */
+#contact {
+		padding: 50px;
+}
+
+.custom-btn{
+	background: rgba(51, 51, 51, 1.0);
+}
+
+
+/*FOOTER*/
+.footer {
+	background-color: #222;
+	color: #aaa;
+	padding: 40px 0;
+}
+.footer a {
+	color: #aaa;
+	text-decoration: none;
+}
+.footer a:hover {
+	color: #fff;
+}
+.social-icons a {
+	font-size: 24px;
+	margin: 0 10px;
+	color: #aaa;
+}
+.social-icons a:hover {
+	color: #fff;
+}
+.rights {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 14px;
+	color: #555;
+}
+
+
+
+/*DESKTOP SCREENS*/
+
+@media screen and (min-width: 992px) {
+	/* NAVBAR */
+	.logo{
+		width: 17%;
+	}
+
+	/* CONTACT */
+	#information{
+		width: 80%;
+	}
+	.map-gg{
+		width: 50% !important;
+		margin: auto;
+	}
+
+
+/*	ABOUT PAGE*/
+	.about-div{
+		width: 67% !important;
+	}
+	.about-img{
+		width: 50%;
+		margin: auto;
+	}
+
+/*	GALLERY*/
+	.gallery-div{
+		width: 67% !important;
+	}
+
+
+/*ROOT*/
+	.container{
+		padding-top:10px;
+		padding-bottom: 10px;
+	}
+
+
+}
